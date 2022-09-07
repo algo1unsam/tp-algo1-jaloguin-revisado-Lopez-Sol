@@ -10,6 +10,11 @@ object barba {
 	method nivelSusto() {
 		return 5*longitud
 	}
+
+	method cambiarLongitud(cantPelos){
+		longitud += cantPelos
+	}
+
 }
 
 object mascaraDracula {
@@ -26,8 +31,6 @@ object mascaraFrankenstein {
 		return 22
 	}
 }
-
-////incompleto
 
 object mascaraPolitico {
 	var property promesas = 10

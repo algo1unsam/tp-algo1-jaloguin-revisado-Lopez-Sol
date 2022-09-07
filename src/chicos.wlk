@@ -18,6 +18,10 @@ object macaria {
 		disfraces.add(disfraz)
 	}
 
+	method quitarDisfraz(disfraz){
+		disfraces.remove(disfraz)
+	}
+
 	method capacidadSusto(){
 		return nivelIra + disfraces.sum({distraz => distraz.nivelSusto()})
 	}
@@ -57,6 +61,10 @@ object pedro {
 
 	method recibirCaramelos(cant){
 		
+	}
+
+	method quitarDisfraz(disfraz){
+		disfraces.remove(disfraz)
 	}
 
 	method disfrazar(disfraz){
